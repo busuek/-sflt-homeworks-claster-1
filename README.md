@@ -60,8 +60,7 @@ listen web_tcp
 	server s1 127.0.0.1:8888 check inter 3s
 	server s2 127.0.0.1:9999 check inter 3s
 ```
-![Перенаправление запросов на разные серверы при обращении к HAProxy]()
-
+<img width="745" height="460" alt="img1" src="https://github.com/user-attachments/assets/be12ebb3-4588-443b-854a-c85b913b9b8b" />
 ---
 
 ### Задание 2
@@ -133,5 +132,5 @@ backend web_servers    # секция бэкенд
         server s2 127.0.0.1:9999 weight 3 check
         server s3 127.0.0.1:7777 weight 4 check
 ```
-![Перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local]()
-![Без домена example.local]()
+<img width="911" height="1238" alt="img2-1" src="https://github.com/user-attachments/assets/b1e40fc3-348d-489c-92c5-1eb0ff7b9e2c" />
+<img width="1056" height="200" alt="img2-2" src="https://github.com/user-attachments/assets/4049ae08-64af-4c40-8eb1-a2eaa3821b8e" />
