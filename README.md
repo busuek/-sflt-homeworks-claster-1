@@ -8,7 +8,7 @@
 
 **Ответ:**
 
-[haproxy.cfg]()
+[haproxy.cfg](https://github.com/busuek/-sflt-homeworks-claster-1/blob/main/task1.cfg)
 ```
 global
 	log /dev/log	local0
@@ -72,7 +72,7 @@ listen web_tcp
 
 **Ответ:**
 
-[haproxy.cfg]()
+[haproxy.cfg](https://github.com/busuek/-sflt-homeworks-claster-1/blob/main/task2.cfg)
 ```
 global
 	log /dev/log	local0
